@@ -3,11 +3,12 @@ print('Welcome to the tip calculator.')
 # asking for total bill
 total_bill = float(input('What was the total bill? $'))
 
+
 # asking for total no of people
-no_of_people = float(input('How many people to spilt the bill? '))
+no_of_people = int(input('How many people to spilt the bill? '))
 
 # asking for percentage of tip
-tip_percentage = float(
+tip_percentage = int(
     input('What percentage of tip would like to give? 10, 12 or 15? '))
 
 
